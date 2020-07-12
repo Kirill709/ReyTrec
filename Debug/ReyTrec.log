@@ -1,0 +1,8 @@
+﻿  ReyTrec.cpp
+c:\users\kiril\desktop\зачёты\суббпрограммирование\reytrec\reytrec\reytrec.cpp(40): warning C4305: аргумент: усечение из "double" в "float"
+c:\users\kiril\desktop\зачёты\суббпрограммирование\reytrec\reytrec\reytrec.cpp(43): warning C4305: аргумент: усечение из "double" в "float"
+c:\users\kiril\desktop\зачёты\суббпрограммирование\reytrec\reytrec\reytrec.cpp(49): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+c:\users\kiril\desktop\зачёты\суббпрограммирование\reytrec\reytrec\reytrec.cpp(55): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+c:\users\kiril\desktop\зачёты\суббпрограммирование\reytrec\reytrec\reytrec.cpp(56): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+c:\users\kiril\desktop\зачёты\суббпрограммирование\reytrec\reytrec\reytrec.cpp(97): warning C4305: инициализация: усечение из "double" в "float"
+  ReyTrec.vcxproj -> C:\Users\kiril\Desktop\Зачёты\СуббПрограммирование\ReyTrec\Debug\ReyTrec.exe
