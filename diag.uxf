@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1340</x>
+      <y>0</y>
+      <w>210</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Stereotype&gt;&gt;
+Package::FatClass
+{Some Properties}
+--
+-id: Long
+_-ClassAttribute: Long_
+--
+#Operation(i: int): int
+/+AbstractOperation()/
+--
+Responsibilities
+-- Resp1
+*-- Resp2*</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>30</x>
+      <y>170</y>
+      <w>290</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes> Orbs
+--
++ center: Vec3f;
++ radius: float;
++ material: Material;
+--
++ Sphere(&amp;c: Vec3f, &amp;r: float, &amp;m: Material);
++ ray_intersect(&amp;orig: Vec3f; &amp;dir: Vec3f; 
+                          t0: float): bool;</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>410</x>
+      <y>30</y>
+      <w>250</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>Light 
+--
++ position: Vec3f;
++ intensity: float;
+--
++ Light(&amp;p: Vec3f, &amp;i: float)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>30</x>
+      <y>30</y>
+      <w>210</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>Material 
+--
++ diffuse_color: Vec3f;
+--
++ Material(&amp;color: Vec3f);
++ Material();
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>120</x>
+      <y>110</y>
+      <w>80</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;60.0;60.0</additional_attributes>
+  </element>
+</diagram>
